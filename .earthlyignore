@@ -1,0 +1,6 @@
+# Scala
+*/target
+*/node_modules
+project/metals.sbt
+project/project/
+project/.bloop/

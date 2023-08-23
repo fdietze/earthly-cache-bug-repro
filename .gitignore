@@ -1,0 +1,117 @@
+# important when symlinking .dockerignore to .gitignore
+**/.git/
+
+
+# bloop and metals
+.bloop
+.bsp
+
+# metals
+project/metals.sbt
+.metals
+
+# vs code
+.vscode
+
+# scala 3
+.tasty
+
+# sbt
+project/project/
+**/target/
+
+# compute service (rust)
+**/.cargo/
+**/.rustup/
+**/target/
+
+# eclipse
+build/
+.classpath
+.project
+.settings
+.worksheet
+bin/
+.cache
+
+# intellij idea
+*.log
+*.iml
+*.ipr
+*.iws
+.idea
+
+# mac
+.DS_Store
+
+# other?
+.history
+.scala_dependencies
+.cache-main
+
+#general
+*.class
+node_modules
+prisma/generated-prisma-client
+prisma/all-prisma-schemas/*/generated-prisma-client/
+
+.hide
+.venv/
+
+# makefile
+/docker/postgres/postgres_extension/functions.bc
+/docker/postgres/postgres_extension/functions.o
+/docker/postgres/postgres_extension/functions.so
+
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+__pycache__
+__pytest__
+__pytestcache__
+
+# env
+.envrc.local
+/compute/compute
+
+# direnv
+.direnv/
+
+lastrun.log
+
+/openapi.json
+
+cypress/videos
+cypress/screenshots
+
+/localsetup/lambda-layers
+
+# terraform
+localsetup/terraform/.terraform.lock.hcl
+localsetup/terraform/.terraform/
+localsetup/terraform/terraform.tfstate*

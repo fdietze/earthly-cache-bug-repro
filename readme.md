@@ -1,0 +1,3 @@
+```
+earthly +scala-compile
+```
